@@ -5,7 +5,7 @@ ENV SBT_HOME /usr/local/sbt
 ENV PATH ${PATH}:${SBT_HOME}/bin
 
 RUN apk update && \
-  apk add curl ca-certificates bash && \
+  apk add curl ca-certificates bash git && \
   rm -Rf /var/cache/apk/*
 
 # Install sbt
