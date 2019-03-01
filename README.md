@@ -1,6 +1,6 @@
 # SBT
 
-*Java with sbt, based on alpine linux with openjdk's JDK*
+*Java with sbt, based on openjdk's slim debian JDK image*
 
 ## Usage example:
 
