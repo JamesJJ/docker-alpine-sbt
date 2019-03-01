@@ -1,6 +1,6 @@
-FROM openjdk:8-jdk-alpine3.7
+FROM openjdk:8-jdk-alpine3.9
 
-ENV SBT_VERSION 1.1.2
+ENV SBT_VERSION 1.2.8
 ENV SBT_HOME /usr/local/sbt
 ENV PATH ${PATH}:${SBT_HOME}/bin
 
